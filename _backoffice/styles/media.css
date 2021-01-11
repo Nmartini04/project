@@ -1,0 +1,54 @@
+/* media querie pour le responsive */
+
+
+
+@media screen and (max-width: 1920px) and (min-width: 1080px) {
+
+
+
+}
+
+
+@media screen and (max-width: 1440px) and (min-width: 900px) {
+
+
+}
+
+
+@media screen and (max-width: 1366px) {
+
+
+
+}
+
+@media screen and (max-width: 1100px) {
+
+
+
+
+}
+
+@media screen and (max-width: 800px) {
+
+
+
+
+
+}
+
+@media screen and (max-width: 700px) {
+
+
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .backoff{
+        font-size: 50px;
+    }
+
+    td{
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,754 @@
+/* media querie pour le responsive */
+
+@media screen and (min-width: 600px) {
+    .topnav {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .nav {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 1920px) and (min-width: 1080px) {
+
+    header h1 {
+        font-size: 80px;
+
+    }
+    .real h1{
+        font-size: 50px;
+        position: relative;
+        top: 100px;
+    }
+    .real h3{
+        font-size: 150px;
+        
+    }
+
+}
+
+
+@media screen and (max-width: 1440px) and (min-width: 900px) {
+
+
+    .image_rea {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        width: 350px;
+    }
+
+    .image_rea img {
+        width: 100%;
+    }
+
+    .imgR {
+        position: relative;
+        top: 200px;
+        right: 300px;
+        padding-bottom: 200px;
+    }
+}
+
+
+@media screen and (max-width: 1366px) {
+
+    header h1 {
+        font-size: 80px;
+    }
+
+    .image_rea {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        width: 300px;
+    }
+
+    .image_rea img {
+        width: 100%;
+    }
+
+    .imgR {
+        position: relative;
+        top: 170px;
+        right: 200px;
+        padding-bottom: 200px;
+    }
+
+
+    .picture {
+        max-width: 1000px;
+    }
+
+
+    .titleP h1 {
+        font-size: 70px !important;
+        letter-spacing: 20px;
+    }
+
+    .pricing h1 {
+        font-size: 30px;
+    }
+
+    .prix p {
+        font-size: 15px;
+    }
+
+    .titleprix {
+        font-size: 250px;
+    }
+
+    .price h1 {
+        font-size: 30px;
+    }
+
+    .pricing2 p {
+        font-size: 15px;
+    }
+
+    /* page realisation */
+    .real h1 {
+        font-size: 50px;
+        position: relative;
+        top: 80px;
+    }
+
+    .real h3 {
+        font-size: 120px;
+    }
+
+}
+
+@media screen and (max-width: 1100px) {
+
+    header h1 {
+        font-size: 70px;
+
+    }
+
+    .viewrea {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .image_rea {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        width: 350px;
+    }
+
+    .image_rea img {
+        width: 100%;
+    }
+
+    .imgR {
+        position: relative;
+        top: 200px;
+        right: 300px;
+        padding-bottom: 200px;
+    }
+
+    .viewrea {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 80vh;
+    }
+
+    .image_rea {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .image_rea img {
+        width: 450px !important;
+    }
+
+    .imgR1 {
+        padding-left: 100px;
+    }
+
+    .imgR {
+        position: relative;
+        top: 150px;
+        right: 100px;
+        padding-bottom: 200px;
+        width: 450px !important;
+    }
+
+    /* page pricing */
+
+    .titleP h1 {
+        font-size: 40px !important;
+        letter-spacing: 20px;
+    }
+
+    .pricing2 {
+        flex-direction: column;
+    }
+
+    .titleprix {
+        font-size: 200px;
+    }
+
+    /* page realisation */
+    .real h1 {
+        font-size: 60px;
+        position: relative;
+        top: 100px;
+    }
+
+    .real h3 {
+        font-size: 150px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+
+    .nav {
+        font-size: 20px;
+    }
+
+    .nav a {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 35px;
+    }
+
+    header h3 {
+        font-size: 40px;
+    }
+
+    .love h2 {
+        font-size: 100px;
+    }
+
+    .love h1 {
+        font-size: 45px;
+        position: relative;
+        top: -50px;
+    }
+
+    .text h1 {
+
+        font-size: 45px;
+        position: relative;
+        top: -110px;
+    }
+
+    .text h2 {
+        font-size: 150px;
+
+    }
+
+    .picture {
+        min-width: 600px;
+    }
+
+    .viewrea {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 70vh;
+    }
+
+    .image_rea {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .image_rea img {
+        width: 300px !important;
+    }
+
+    .imgR1 {
+        padding-left: 100px;
+    }
+
+    .imgR {
+        position: relative;
+        top: 150px;
+        right: 100px;
+        padding-bottom: 200px;
+        width: 300px !important;
+    }
+
+    /* page pricing */
+
+    .titleP h1 {
+        font-size: 40px;
+        letter-spacing: 20px;
+    }
+
+    .price h1 {
+        font-size: 40px;
+    }
+
+    .price p {
+        font-size: 15px;
+    }
+
+    .pricing h1{
+        text-align: center;
+    }
+
+    .real h1 {
+        font-size: 50px;
+        position: relative;
+        top: 70px;
+    }
+
+    .real h3 {
+        font-size: 100px;
+    }
+
+    /* footer */
+
+
+
+    .contactinfo h1 {
+        font-size: 35px;
+    }
+
+    .contactinfo p {
+        font-size: 18px;
+    }
+
+    .ifr {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    iframe {
+        filter: grayscale(80%);
+        padding: 10px;
+        border-radius: 15px;
+    }
+
+    .contact p {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .contact h1 {
+        font-size: 35px;
+        margin-top: 50px;
+    }
+
+    .info h1 {
+        font-size: 35px;
+        margin-top: 50px;
+    }
+
+    .fo {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+}
+
+@media screen and (max-width: 700px) {
+    .nav {
+        font-size: 17px;
+    }
+
+    .nav a {
+        padding: 10px;
+    }
+
+    .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 700px;
+    }
+
+
+    .tarif h3 {
+        font-size: 50px;
+    }
+
+    .picture {
+        display: none;
+
+    }
+
+    .picsPort {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .picturePort {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 300px;
+    }
+
+    .picturePort img {
+        width: 100%;
+        padding-top: 20px;
+    }
+
+
+    .viewrea {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 60vh;
+    }
+
+    .image_rea {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .image_rea img {
+        width: 300px !important;
+    }
+
+    .imgR1 {
+        padding-left: 100px;
+    }
+
+    .imgR {
+        position: relative;
+        top: 150px;
+        right: 100px;
+        padding-bottom: 200px;
+        width: 300px !important;
+    }
+
+
+
+
+    /* page pricing */
+
+    .titleP h1 {
+        font-size: 30px;
+        letter-spacing: 10px;
+    }
+
+    .price h1 {
+        font-size: 35px;
+    }
+
+    .price p {
+        font-size: 15px;
+    }
+
+    .pricing {
+        flex-direction: column;
+
+    }
+
+    #contact {
+        max-width: 450px;
+
+    }
+
+    #contact .container_contact form input,
+    #contact .container_contact form textarea {
+
+        padding: 5px;
+        font-size: 12px;
+    }
+
+    .realisation {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .card {
+        width: 70%;
+    }
+
+    /* footer */
+
+
+
+    .contactinfo h1 {
+        font-size: 25px;
+    }
+
+    .contactinfo p {
+        font-size: 18px;
+    }
+
+    .ifr {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    iframe {
+        filter: grayscale(80%);
+        padding: 10px;
+        border-radius: 15px;
+    }
+
+    .contact p {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .contact h1 {
+        font-size: 25px;
+        margin-top: 50px;
+    }
+
+    .info h1 {
+        font-size: 25px;
+        margin-top: 50px;
+    }
+
+    .fo {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .nav {
+        display: none;
+    }
+
+    header h1 {
+        font-size: 20px;
+        letter-spacing: 3px;
+    }
+
+    header h3 {
+        font-size: 20px;
+    }
+
+    .text h1 {
+
+        font-size: 30px;
+        position: relative;
+        top: -110px;
+    }
+
+    .text h2 {
+        font-size: 100px;
+
+    }
+
+    .tarif h1 {
+        font-size: 30px;
+    }
+
+    .tarif h3 {
+        font-size: 30px;
+    }
+
+    .love h2 {
+        font-size: 80px;
+    }
+
+    .love h1 {
+        font-size: 30px;
+        position: relative;
+        top: -50px;
+    }
+
+    .carre-blanc h3{
+        font-size: 30px;
+    }
+    .carre-blanc h1{
+        font-size: 30px;
+    }
+    .carre-noir h3{
+        font-size: 30px;
+    }
+    .carre-noir h1{
+        font-size: 30px;
+    }
+
+    .viewrea {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 50vh;
+    }
+
+    .image_rea {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .image_rea img {
+        width: 200px !important;
+    }
+
+    .imgR1 {
+        padding-left: 100px;
+    }
+
+    .imgR {
+        position: relative;
+        top: 150px;
+        right: 100px;
+        padding-bottom: 200px;
+        width: 200px !important;
+    }
+
+
+    .picture {
+        min-width: 300px;
+    }
+
+
+    /* page pricing */
+    .titleP h1 {
+        font-size: 30px !important;
+        letter-spacing: 5px;
+    }
+
+    .pricing h1 {
+        font-size: 30px;
+    }
+
+    .pricing p {
+        font-size: 10px;
+    }
+
+    .titleprix {
+        font-size: 100px;
+    }
+
+
+    .price h1 {
+        font-size: 30px;
+    }
+
+    .price p {
+        font-size: 10px;
+    }
+
+    .pricing {
+        flex-direction: column;
+
+    }
+
+    #contact {
+        max-width: 310px;
+
+    }
+
+    #contact .container_contact form input,
+    #contact .container_contact form textarea {
+
+        padding: 0px;
+        font-size: 12px;
+    }
+
+
+    .real h1 {
+        font-size: 30px;
+        position: relative;
+        top: 20px;
+    }
+
+    .real h3 {
+        font-size: 50px;
+    }
+
+    .realisation {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .card {
+        width: 70%;
+    }
+
+
+
+    /* footer */
+
+
+
+    .contactinfo h1 {
+        font-size: 25px;
+    }
+
+    .contactinfo p {
+        font-size: 18px;
+    }
+
+    .ifr {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    iframe {
+        filter: grayscale(80%);
+        padding: 10px;
+        border-radius: 15px;
+    }
+
+    .contact p {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .contact h1 {
+        font-size: 25px;
+        margin-top: 50px;
+    }
+
+    .info h1 {
+        font-size: 25px;
+        margin-top: 50px;
+    }
+
+    .fo {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+}

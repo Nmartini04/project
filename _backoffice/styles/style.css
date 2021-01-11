@@ -1,0 +1,55 @@
+header{
+    background: url(../../assets/img/backoffice.jpg) ;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 40vh;
+}
+
+header h1{
+    font-size: 100px;
+    font-family: MonSerrat;
+    letter-spacing: 10px;
+}
+
+.colonneG{
+    min-height: 100vh;
+    min-width: 200px;
+    background: rgb(177,174,238);
+    background: linear-gradient(221deg, rgba(177,174,238,1) 0%, rgba(148,187,233,1) 100%);
+    
+}
+
+li{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: MonSerrat;
+    list-style: none;
+    padding: 30px;
+
+}
+
+img{
+    width: 100px;
+}
+
+td{
+    font-size: 20px;
+    
+}
+
+.modif{
+    width: 100px;
+}
+
+.bg{
+    background-color:#EAF2F8 ;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: black;
+}
