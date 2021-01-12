@@ -15,15 +15,9 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nostrum, doloremque illo aut reprehenderit labore harum, aliquam neque placeat ipsa animi eaque exercitationem omnis! Ullam sapiente dolorem expedita unde odit!</p>
 
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident quo corrupti dolorum debitis veniam! Rem quasi accusantium id quos nemo a consequuntur nostrum tempore sequi doloribus sapiente, distinctio illo iure.</p>
-
-
+            
         </div>
     </main>
-
-
-
-
-
 
 
     <?php include_once 'views/includes/footer.php'; ?>
