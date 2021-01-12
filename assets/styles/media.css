@@ -19,14 +19,27 @@
         font-size: 80px;
 
     }
-    .real h1{
+
+    .real h1 {
         font-size: 50px;
         position: relative;
         top: 100px;
     }
-    .real h3{
+
+    .real h3 {
         font-size: 150px;
-        
+
+    }
+
+    .picture{
+        max-width: 1000px;
+    }
+    .image_rea{
+        width: 450px;
+    }
+
+    .viewrea{
+        min-height: 65vh;
     }
 
 }
@@ -52,6 +65,48 @@
         right: 300px;
         padding-bottom: 200px;
     }
+
+    .container{
+        height: 500px;
+    }
+
+    .viewrea {
+        min-height: 70vh;
+    }
+
+    .picture {
+        max-width: 900px;
+    }
+
+    .pricing h1 {
+        font-size: 35px;
+    }
+
+    .pricing p {
+        font-size: 15px;
+    }
+
+    .price p {
+        font-size: 15px;
+    }
+.tarif{
+    min-height: 40vh;
+}
+
+    .tarif h1 {
+        font-size: 32px;
+    }
+
+    .tarif h3 {
+        font-size: 60px;
+    }
+
+    .price h1 {
+        font-size: 35px;
+    }
+
+
+
 }
 
 
@@ -303,7 +358,7 @@
         font-size: 15px;
     }
 
-    .pricing h1{
+    .pricing h1 {
         text-align: center;
     }
 
@@ -567,6 +622,15 @@
 
     }
 
+    .tarif {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        background: url(../img/tarif.jpg);
+        background-size: cover;
+    }
+
     .tarif h1 {
         font-size: 30px;
     }
@@ -585,21 +649,26 @@
         top: -50px;
     }
 
-    .carre-blanc h3{
+    .carre-blanc h3 {
         font-size: 30px;
     }
-    .carre-blanc h1{
+
+    .carre-blanc h1 {
         font-size: 30px;
     }
-    .carre-noir h3{
+
+    .carre-noir h3 {
         font-size: 30px;
     }
-    .carre-noir h1{
+
+    .carre-noir h1 {
         font-size: 30px;
     }
+
 
     .viewrea {
-
+        background: url(../img/viewrea.jpg);
+        background-size: cover;
         display: flex;
         flex-direction: column;
         justify-content: center;

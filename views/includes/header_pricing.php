@@ -1,16 +1,18 @@
 <header>
     <div class="nav">
         <a href="accueil">ACCUEIL</a>
-        <a href="pricing">TARIF</a>
-        <a href="realisation">REALISATION</a>
+        <a href="pricing">TARIFS</a>
+        <a href="realisation">REALISATIONS</a>
+        <a href="about">A PROPOS</a>
     </div>
 
     <div class="topnav">
         
         <div id="myLinks">
             <a href="accueil">ACCUEIL</a>
-            <a href="pricing">TARIF</a>
-            <a href="realisation">REALISATION</a>
+            <a href="pricing">TARIFS</a>
+            <a href="realisation">REALISATIONS</a>
+            <a href="about">A PROPOS</a>
         </div>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>

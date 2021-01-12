@@ -11,17 +11,17 @@
             <div class="carre-blanc">
                 <h3>Lovely</h3>
                 <h1>HAIRCUT</h1>
-                <a href="#">VOIR</a>
+
             </div>
             <div class="carre-noir">
                 <h3>Change</h3>
                 <h1>COLORING</h1>
-                <a href="#">VOIR</a>
+
             </div>
             <div class="carre-blanc">
                 <h3>Perfect</h3>
                 <h1>HAIRSTYLES</h1>
-                <a href="#">VOIR</a>
+
             </div>
         </div>
         <div class="tarif">
@@ -59,9 +59,10 @@
                 <img class="imgR" src="./assets/img/pics.png" alt="">
             </div>
         </div>
-
+        
         <div class="fin">
             <section id="contact">
+            <h1>CONTACT ME</h1>
 
                 <div class="container_contact">
 

@@ -24,7 +24,7 @@ header {
 
 .nav {
     background-color: #f7f8f9;
-    font-family: MonSerrat;
+    font-family: Monserrat;
     font-size: 25px;
 
 }
@@ -59,7 +59,7 @@ header {
     color: white;
     padding: 14px 16px;
     text-decoration: none;
-    font-family: MonSerrat;
+    font-family: Monserrat;
     font-size: 17px;
     display: flex;
 }
@@ -96,7 +96,7 @@ header h3 {
 }
 
 header h1 {
-    font-family: MonSerrat;
+    font-family: Monserrat;
     color: white;
     font-size: 150px;
     letter-spacing: 30px;
@@ -210,7 +210,7 @@ header h1 {
 }
 
 .tarif h1 {
-    font-family: MonSerrat;
+    font-family: Monserrat;
     font-size: 45px;
     color: white;
 }
@@ -280,7 +280,7 @@ header h1 {
 .item {
     display: flex;
     padding: 0.75rem 1.5rem;
-    font-family: MonSerrat;
+    font-family: Monserrat;
     font-size: 35px;
 }
 
@@ -431,6 +431,11 @@ header h1 {
     margin: 0 auto;
 }
 
+#contact h1{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
 .container_contact {
     width: 100%;
     height: auto;
@@ -553,13 +558,46 @@ header h1 {
     border-top-left-radius: 5px;
 }
 
+
+
+/* page about us */
+
+
+
+.abt {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+
+}
+
+.abt h1{
+    font-size: 70px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+
+.abt p{
+    padding-bottom: 100px;
+}
+
+
+
+
+/* fin page about us */
+
+
 /* footer */
 
 footer p {
     text-align: center;
     background-color: black;
     color: white;
-    padding: 10px;
 }
 
 .contactinfo {
@@ -569,7 +607,7 @@ footer p {
 }
 
 .contactinfo p {
-    font-size: 25px;
+    font-size: 18px;
 }
 
 .ifr {
@@ -587,7 +625,7 @@ iframe {
 
 .contact p {
     margin-top: 30px;
-    font-size: 25px;
+    font-size: 18px;
 }
 
 .fb {
@@ -608,3 +646,14 @@ iframe {
     padding: 20px;
     text-align: center;
 }
+
+.info h1 {
+    font-size: 24px;
+}
+.contact h1 {
+    font-size: 24px;
+}
+.contactinfo h1 {
+    font-size: 24px;
+}
+
